@@ -1,0 +1,3 @@
+Run with follwing command in folder src:
+
+    nohup matlab -nodisplay -nosplash -nodesktop > matlab.out < optimizer.m &

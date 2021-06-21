@@ -1,0 +1,367 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jul 16 13:27:02 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23032 31063 743249 763000) (desktop . "208") "schnecki@c437-pc141" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#333333") (background-color . "#FFFFFF") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#0FB300") (sticky) (environment) (frameset--id . "4BEF-3813-89ED-1AE2") (frameset--mini t . t) (height . 54) (width . 211) (modeline . t) (minibuffer . t) (unsplittable) (left . 1679) (top . 26) (icon-name) (visibility . t) (display . ":2") (explicit-name)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 14) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 126) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1920) (pixel-height . 970) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 957) (pixel-height . 970) (total-width . 106) (total-height . 54) (normal-height . 1.0) (normal-width . 0.5) (buffer "simulation_sbc.m" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1556) (start . 1))) (leaf (last . t) (pixel-width . 963) (pixel-height . 970) (total-width . 107) (total-height . 54) (normal-height . 1.0) (normal-width . 0.5) (buffer "*MATLAB*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 580) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/TAGS")
+(setq tags-table-list '("/home/schnecki/Documents/projects/ann_cycletime/paper/TAGS" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/TAGS"))
+(setq search-ring '("pon" "missb" "raist" "miss" "pdf" "164" "con" "set" "sc" "sce" "ress" "mat" "no" "cplex" "simu" "main"))
+(setq regexp-search-ring '("simulation" "simulat"))
+(setq register-alist '((48 . "")))
+(setq file-name-history '("~/Documents/projects/stationary_backlog_carryover/simulation/result/spc_spsa_results.zip" "~/Documents/projects/stationary_backlog_carryover/simulation/src/scenario4.m" "/home/schnecki/.bashrc" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/README" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/scenario4.m" "/home/schnecki/Documents/projects/ann_cycletime/paper/references.bib" "/home/schnecki/Documents/projects/ann_cycletime/paper/content.tex" "/home/schnecki/Documents/projects/ann_cycletime/paper/abstract.tex" "/home/schnecki/Documents/projects/ann_cycletime/paper/" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_sim.m" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/config.m" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/optimizer.m" "~/Documents/projects/stationary_backlog_carryover/simulation/result/05.xls" "~/Documents/projects/stationary_backlog_carryover/simulation/result/04.xls" "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/scenario5.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_spsa.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/constants.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/config.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/constraints.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/simulation.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_simulation.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/simulation_sbc.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/constraints_sbc.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_sim.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/optimizer.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/sim.m" "~/Documents/projects/stationary_backlog_carryover/simulation/src/to_vector.m" "~/Documents/projects/ai4industry/papers/lod18/paper/paper.tex" "~/Documents/projects/stationary_backlog_carryover/simulation/src/spsa.m" "~/Documents/projects/stationary_backlog_carryover/.git/config" "~/Documents/projects/stationary_backlog_carryover/simulation/src/result_R100_ga_FunctionTolerance0.5.txt" "~/.emacs.d/25/language_configs/matlab_config.el" "~/.emacs.d/25/language_configs/octave_config.el" "/ssh:tct3@colo7-c703.uibk.ac.at:/home/software/tct3/experiments/ara/tct-trs/src/Tct/Trs/Processor/AmortisedAnalysis.hs" "/ssh:tct3@colo7-c703.uibk.ac.at:/home/software/tct3/experiments/ara/tct-trs/src/Tct/Trs/Strategy/Runtime.hs" "/ssh:tct3@colo7-c703.uibk.ac.at:/home/software/tct3/experiments/ara/tctac/src/Main.hs" "~/GitFiles/Planning/default.org" "~/Documents/projects/lts_comp/app/doc/data/demand_probe_RO.csv" "~/Documents/projects/lts_comp/app/doc/data/demand_RO.csv" "~/Documents/projects/stationary_backlog_carryover/simulation/simulation_sbc.m" "~/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  nil
+  "result/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode company-mode TeX-PDF-mode)
+  187
+  '(1 nil)
+  t
+  '("/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/result/")
+  '((buffer-display-time 24336 14725 917128 412000) (truncate-lines))
+  '((mark-ring (1026))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/simulation.m"
+  "simulation.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  1368
+  '(1894 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 13570 456671 581000) (buffer-file-coding-system . undecided-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (2045 2601 570 1772 1 2072 921 2251 2164 2116 2072 1406 281 674 313 1027))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_sim.m"
+  "sbc_sim.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  2480
+  '(2568 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 13169 767099 180000) (buffer-file-coding-system . undecided-unix) (fill-column . 100) (truncate-lines))
+  '((mark-ring (2557 2591 1 2481 1574 1580 2556 2530 1540 665 678 2480))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/scenario4.m"
+  "scenario4.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  13
+  '(3838 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12753 350963 574000) (buffer-file-coding-system . undecided-unix) (fill-column . 100) (truncate-lines))
+  '((mark-ring (1 3838 2983 3839 1969 822))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/constants.m"
+  "constants.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  708
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12736 694372 306000) (buffer-file-coding-system . undecided-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (1 949 923 610 595 479 907 859 769 727 857 897 126 856 981 1102))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/optimizer.m"
+  "optimizer.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  2152
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12659 734201 136000) (buffer-file-coding-system . utf-8-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (2347 1 2650 272 2476 2221 2251 1743 2375 1863 2605 2565 2143 2346))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/config.m"
+  "config.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  282
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12632 504987 850000) (buffer-file-coding-system . undecided-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (1 282 282 402))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/nohup.out.sess4.noBOcosts"
+  "nohup.out.sess4.noBOcosts"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  160759
+  '(159338 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12460 643888 92000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (159312 160758 159347 160759 1))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/README"
+  "README"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  121
+  '(47 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 12026 706301 557000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (118 1 43 121))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/sbc_spsa.m"
+  "sbc_spsa.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  648
+  '(1033 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 4744 722792 882000) (buffer-file-coding-system . undecided-unix) (fill-column . 100) (truncate-lines))
+  '((mark-ring (389 1 1125 1104 1139 1020 1212 1349 1387 412 602 1318 322 641 437 648))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/GitFiles/Planning/default.org_archive"
+  "default.org_archive"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  98886
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24336 4579 378090 243000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  nil
+  "x86-64_linux/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  '("/opt/ibm/ILOG/CPLEX_Studio127/cplex/bin/x86-64_linux/")
+  '((buffer-display-time 24336 4536 26221 791000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/ann_cycletime/paper/references.bib"
+  "references.bib"
+  'bibtex-mode
+  '(visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode magit-file-mode)
+  315817
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24334 44435 629870 130000) (buffer-file-coding-system . utf-8-unix) (truncate-lines) (TeX-master . t))
+  '((mark-ring (1 316073 316056 316037 315848 414696 315957 315929 315175 414762 316094 315881 315878 316107 316037 316107))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/ai4industry/papers/lod18/proceedings/paper.tex"
+  "paper.tex"
+  'latex-mode
+  '(auto-fill-mode visual-line-mode auto-complete-mode linum-mode auto-revert-mode orgtbl-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode reftex-mode cdlatex-mode magit-file-mode)
+  1
+  '(19336 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24334 34651 466003 541000) (buffer-file-coding-system . utf-8-unix) (truncate-lines) (TeX-master . t))
+  '((mark-ring (22386 1))))
+
+(desktop-create-buffer 208
+  nil
+  "paper/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode company-mode TeX-PDF-mode)
+  277
+  '(nil nil)
+  t
+  '("/home/schnecki/Documents/projects/ann_cycletime/paper/")
+  '((buffer-display-time 24334 34616 85895 656000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/scenario5.m"
+  "scenario5.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  2406
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24334 24583 439301 271000) (buffer-file-coding-system . undecided-unix) (fill-column . 100) (truncate-lines))
+  '((mark-ring (1 2406 3465 2405 2406 1335 1335 1335 1335 3465 2834 2507))))
+
+(desktop-create-buffer 208
+  nil
+  "tmp/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode company-mode TeX-PDF-mode)
+  1403
+  '(1 nil)
+  t
+  '("/tmp/")
+  '((buffer-display-time 24334 20958 1682 528000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/constraints.m"
+  "constraints.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24334 13034 237376 375000) (buffer-file-coding-system . utf-8-unix) (fill-column . 100) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/to_vector.m"
+  "to_vector.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  326
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24332 62027 565693 217000) (buffer-file-coding-system . undecided-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  nil
+  "literature/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode company-mode TeX-PDF-mode)
+  393
+  '(nil nil)
+  t
+  '("/home/schnecki/Documents/projects/stationary_backlog_carryover/literature/")
+  '((buffer-display-time 24332 61698 228295 195000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/.git/config"
+  "config"
+  'conf-unix-mode
+  '(visual-line-mode linum-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode)
+  186
+  '(178 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6827 29742 458000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/generateDemand.m"
+  "generateDemand.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  792
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6827 327173 463000) (buffer-file-coding-system . undecided-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (1 1 1 1 1 792 1 1 792 1337 792 1 1 792 792 792))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/src/check.m"
+  "check.m"
+  'matlab-mode
+  '(auto-fill-mode visual-line-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode matlab-functions-have-end-minor-mode magit-file-mode)
+  804
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6827 532628 291000) (buffer-file-coding-system . utf-8-unix) (fill-column . 83) (truncate-lines))
+  '((mark-ring (1 413 1 401 401 159 222 335 1 1 1 1 1 1 312 312))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/.gitignore"
+  ".gitignore"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  101
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6827 729941 274000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/pseudocode/pseudocode.txt"
+  "pseudocode.txt"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  1212
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6828 179488 743000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1 846 418 1275 1 567 1 2231 1 2230 1895 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  nil
+  "pseudocode/"
+  'dired-mode
+  '(visual-line-mode linum-mode editorconfig-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode company-mode TeX-PDF-mode)
+  403
+  '(nil nil)
+  t
+  '("/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/pseudocode/")
+  '((buffer-display-time 24467 6828 455728 175000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/Documents/projects/stationary_backlog_carryover/simulation/mm1_simulation/mm1.m"
+  "mm1.m"
+  'octave-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode rainbow-delimiters-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode magit-file-mode)
+  469
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6828 770386 346000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/schnecki/GitFiles/Planning/default.org"
+  "default.org"
+  'org-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode org-indent-mode magit-file-mode)
+  6123
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6829 103403 54000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/schnecki/GitFiles/bbdb_addresses"
+  "bbdb_addresses"
+  'emacs-lisp-mode
+  '(visual-line-mode eldoc-mode auto-complete-mode linum-mode auto-revert-mode editorconfig-mode flycheck-mode flyspell-mode auto-dictionary-mode window-number-mode yas-minor-mode rainbow-delimiters-mode global-whitespace-mode ivy-mode helm-mode undo-tree-mode company-mode TeX-PDF-mode magit-file-mode)
+  12432
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 2) (indent-tabs-mode) (buffer-display-time 24467 6829 841879 851000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1))))
+

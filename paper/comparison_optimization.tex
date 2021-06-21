@@ -1,0 +1,104 @@
+
+\documentclass{article}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{stmaryrd}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{bbding}
+% \usepackage{fullpage}
+\usepackage{comment}
+\usepackage{cite}
+\usepackage{url}
+
+
+\pagestyle{plain}
+
+% comments
+\newcommand{\MScolor}{blue}
+\newcommand\MS[2][r]{\ifx t#1 \textcolor{\MScolor}{[#2]}
+  \else \begin{center}\textcolor{\MScolor}{#2} \end{center} \fi}
+
+
+\begin{document}
+
+This document is written s.t. (most) parts could be directly copied to the paper. Nonetheless some
+adaptions most likely will be needed. For instance the text is written as section, whereas it will
+be most likely integrated in the Section 5 (Numerical Study). Comments are colored \MS[t]{blue.}
+
+
+\section{Simulation-Based Optimization}
+
+To provide evidence of the viability of the application of transient queuing approximations in the
+setting of order release models, and in particular the SBC method, this section compares results of
+the presented SBC approach to simulation optimizations for various scenarios.
+
+
+We have investigated \MS[t]{3 (TODO)} different demand streams each of which incorporates a certain
+demand pattern, e.g.~the first scenario defines a constant demand for periods $7-51$ and no demand
+in the other periods, whereas the second scenario provides fluctuations in the demand between
+periods $21$ and $81$ and no demand in the other periods, cf. Section \MS[t]{5 (Numerical Study)}.
+Each scenario is comprised of $101$ periods of demand data for which a variable length of starting
+and ending periods specify a demand of $0$ \MS[t]{true? check other scenarios}. Therefore, we are
+able to investigate the behavior of the SBC algorithm in multiple different phases. Besides the
+phases defined by the scenarios this also includes when there is no demand, when a demand suddenly
+arises and when the demand (unexpectedly) drops to $0$.
+%
+For each demand stream we compare the results of the SBC optimization as
+presented in \MS[t]{Section 4} to the results of simulation-based approaches.
+
+For the later we investigated several techniques to find near-optimal release rates of the demand
+stream under investigation. For all approaches the SBC result, possibly adapted to prevent
+back-orders in the first evaluation, served as a starting point for finding the simulation-based
+optimization solutions. In preliminary experiments we consulted genetic algorithms
+\cite{goldberg1988genetic}, interior-point methods~\cite{byrd2000trust,byrd1999interior}, a
+mesh-based approach called direct-search or pattern-search~\cite{Hooke:1961:DSS:321062.321069,
+  lewis2007implementing,kolda2006stationarity}, and finally the gradient-based SPSA
+optimization~\cite{spall1992multivariate,spall1998implementation,kacar2012fitting}. All
+simulation-based optimizations used 5000 replications to average the results of the specified
+release rates. For the SPSA algorithm we introduced back-order costs of 100 units per order as there
+is no possibility to prevent back-orders by constraints.
+%
+As the best results could be obtained by the SPSA algorithm we selected it as appropriate comparison
+measure. The parameter configuration is given in Table~\ref{tbl:params}, see
+also~\cite{spall1998implementation}.
+%
+We adapted the SPSA algorithm in multiple ways. First the degree of freedom is truncated to the last
+period in which the demand rate is greater $0$. Then we only allow values in the interval $(0,1.5)$
+as possible release rates. And finally we implemented the stopping criteria as presented in the PhD
+thesis of Kacar~\cite{kacar2012fitting} which used the algorithm in a similar setting.
+%
+Despite all the optimizations we observed a high deviation, ranging between a few hours and multiple
+days, for the runtime of the SPSA optimization.
+
+% Especially in cases in which the truncating optimization
+
+\begin{table}[t!]
+  \centering
+  \begin{tabular}{| l | c c c c c c c |}
+    \hline
+    Parameter & $a$ & $\alpha$ & $A$ & $c$ & $\gamma$ & $\phi$ & $\delta$ \\
+    % \hline
+    Value & 0.004 & 0.602 & 1000 & 0.1 & 0.101 & 1.0 & 0.05\\
+    \hline
+  \end{tabular}
+  \caption{\label{tbl:params}Parameter setup for the SPSA algorithm as presented
+    in~\cite{kacar2012fitting}.}
+\end{table}
+
+
+\pagebreak
+\bibliography{references}
+\bibliographystyle{plain}
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

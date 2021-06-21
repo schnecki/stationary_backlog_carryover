@@ -1,0 +1,102 @@
+% Created 2017-12-04 Mon 13:25
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{listings,fullpage}
+\lstset{
+mathescape,
+literate={->}{$\rightarrow$}{2}
+{ε}{$\varepsilon$}{1}
+}
+\author{Manuel Schneckenreither}
+\date{\today}
+\title{Pseudocode SBC Optimization}
+\hypersetup{
+ pdfauthor={Manuel Schneckenreither},
+ pdftitle={Pseudocode SBC Optimization},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+
+\section{Pseudocode of Program}
+\label{sec:org5ad05f7}
+
+
+\subsection{Main}
+\label{sec:orga14c961}
+
+\lstset{language=Python,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+# Init phase
+Set R=100                       # Number of replications
+Set T=100                       # Set length of simulation
+Set $\lambda$=[0 0 ... ]                 # Initial population
+
+# Run ga optimizer on simulation with initial population l
+ga(simulation_sbc($\lambda$))
+
+
+\end{lstlisting}
+
+\vspace{1cm}
+\subsection{Simulation}
+\label{sec:orge920127}
+
+\lstset{language=Python,label= ,caption= ,captionpos=b,numbers=none}
+\begin{lstlisting}
+# Simulation
+def simulation_sbc($\lambda$):
+    for r=1 to R:
+
+        # 1. generate $\lambda$s for all periods T
+        D = exprnd($\lambda$)
+
+        # 2. Calculate inventory and costs for all periods
+        b$_r$(0)=0
+        for t=1 to T:
+            $\bar{\lambda}_r$(t)=$\lambda$(t)+b$_r$(t-1)
+            X$_r$(t)=$\bar{\lambda}_r$(t)/(1+$\bar{\lambda}_r$(t))
+            b$_r$(t)=b$_r$(t-1)+$\lambda$(t)-X$_r$(t)
+            W$_r$(t)=b$_r$(t)
+            I$_r$(t)=I$_r$(t-1)+X$_r$(t)-D(t)
+            cost$_r$(t)=h*W$_r$(t)+g*I$_r$(t)
+
+    # Average over periods T
+    for t=1 to T:
+        avgI(t)=0
+        for r=1 to R:
+            avgI(t) = avgI(t) + I$_r$(t)
+
+    # Average over replications R
+    for r=1 to R:
+        avgCosts(r)=0
+        for t=0 to T:
+            avgCosts(r) = avgCosts(r) + Costs$_r$(t)
+
+    # Mean Costs
+    costs=mean(avgCosts)
+
+    # Constraints
+    if any (< 0) of avgI or any (< 0) of X or
+       any (< 0) b or any (< 0) of W:
+        raise optimizer constraints error
+
+\end{lstlisting}
+\end{document}
